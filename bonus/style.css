@@ -1,0 +1,197 @@
+body{
+    background-color: rgba(161, 173, 255, 1);
+}
+
+/************
+ titolo S.M.B 
+ ************/
+.title{
+    background-color: rgba(221, 89, 24, 1);
+    padding: 5px 15px;
+    margin-top: 15px;
+    border-top: 2px solid white;
+    border-left: 2px solid white;
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+    position: relative;
+ }
+
+h2,h1{
+    color: rgba(255, 221, 201, 1);
+    font-size: 6rem;
+    text-shadow: 3px 8px 3px black
+}
+
+.chiodo{
+    width: 4px;
+    height: 4px;
+    background-color: rgba(255, 221, 201, 1);
+    box-shadow: 2px 3px 1px black
+}
+
+.tp-lf{
+    position: absolute;
+    top: 3px;
+    left: 3px;
+}
+
+.tp-rg{
+    position: absolute;
+    top: 3px;
+    right: 3px;
+}
+
+.bt-lf{
+    position: absolute;
+    bottom: 3px;
+    left: 3px;
+}
+
+.bt-rg{
+    position: absolute;
+    bottom: 3px;
+    right: 3px;
+}
+/**************
+ titolo S.M.B 
+ **************/
+
+ 
+/*************
+ nuvole 
+ *************/
+ .nv-1{
+    margin-top: 70px;
+ }
+
+ .nv-2{
+    margin-top: 100px;
+    margin-left: -70px;
+ }
+
+ .nv-3{
+    margin-left: 100px;
+    margin-top: 80px;
+ }
+
+ .nv-4{
+     margin-top: 180px;
+     margin-left: 370px;
+ }
+
+.nuvola>[class*="col-"]{
+    background-color: white;
+    border-radius: 5px;
+ }
+
+[class*="offset-"]{
+    background-color:transparent;
+    float: left;
+}
+/***********
+ /nuvole 
+ ***********/
+
+
+/****************
+ mattone
+ *************** */
+.mattone{
+    background-color: rgba(255, 192, 123, 1);
+    border-top: 3px solid rgba(221, 89, 24, 1) ;
+    border-left: 3px solid rgba(221, 89, 24, 1) ;
+    border-right: 3px solid black;
+    border-bottom: 3px solid black;
+    position: relative;
+}
+
+.mattone>.chiodo{
+    box-shadow: none;
+    background-color: black;
+}
+
+img{
+    width: 30px;
+    height: 35px;
+    margin: 5px 10px;
+}
+
+
+#mt_bt{
+    margin-top: 250px;
+    margin-left: 100px;
+}
+
+#mt_top{
+    margin-top: 150px;
+    margin-left: 150px;
+}
+
+#mt_bas{
+    margin-top: 300px;
+    margin-left: -140px;
+    background-color:(221, 89, 24, 1) ;
+}
+/***************
+/mattone 
+***************/
+
+
+/**************
+ montagne 
+ **************/
+.montain_left, .montain_right{
+    width: 0;
+    height: 0;
+    border-left: 300px solid transparent;
+    border-right: 350px solid transparent;
+    border-bottom: 350px solid rgba(59, 185, 0, 1) ;
+    position: absolute;
+    bottom: 0;
+}
+
+.montain_right{
+    margin-left: 150px;
+    border-bottom: 300px solid rgba(59, 185, 0, 1);
+}
+/************
+/montagne
+*************/
+
+
+/************
+ personaggi 
+ ************/
+.personaggio{
+    width: 70px;
+    height: 80px;
+    margin-top: 165px;
+    margin-left: 100px;
+}
+
+.nemico{
+    width: 70px;
+    height: 80px;
+    margin-top: 165px;    
+}
+/*************
+/personaggi  
+**************/
+
+
+/***********
+ terra
+ ********* */
+.terra [class*="col-"]{
+    border: 1px solid black;
+    background-color:rgba(221, 89, 24, 1) ;
+}
+
+.terra{
+    position: absolute;
+    bottom: 0;
+    background-color:rgba(221, 89, 24, 1) ;
+}
+/**********
+ /terra
+ ********* */

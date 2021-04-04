@@ -1,0 +1,150 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Bungee', cursive;
+}
+
+.container{
+    width: 100%;
+    height: 100%;
+}
+
+.row{
+    width: 100%;
+    height: 100%;
+    float: left;
+}
+
+.row::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+[class*="col-"]{
+    width: 100%;
+    float: left;
+}
+
+[class*="alt-"]{
+    height: 300px;
+}
+
+
+/* 12 colonne */
+.col-1{
+    width: calc((100%/12) *1);
+}
+.col-2{
+    width: calc((100%/12) *2);
+}
+.col-3{
+    width: calc((100%/12) *3);
+}
+.col-4{
+    width: calc((100%/12) *4);
+}
+.col-5{
+    width: calc((100%/12) *5);
+}
+.col-6{
+    width: calc((100%/12) *6);
+}
+.col-7{
+    width: calc((100%/12) *7);
+}
+.col-8{
+    width: calc((100%/12) *8);
+}
+.col-9{
+    width: calc((100%/12) *9);
+}
+.col-10{
+    width: calc((100%/12) *10);
+}
+.col-11{
+    width: calc((100%/12) *11);
+}
+.col-12{
+    width: calc((100%/12) *12);
+}
+/* /12 colonne */
+
+
+/* offset */
+.offset-1{
+    margin-left: calc((100%/12) *1);
+}
+.offset-2{
+    margin-left: calc((100%/12) *2);
+}
+.offset-3{
+    margin-left: calc((100%/12) *3);
+}
+.offset-4{
+    margin-left: calc((100%/12) *4);
+}
+.offset-5{
+    margin-left: calc((100%/12) *5);
+}
+.offset-6{
+    margin-left: calc((100%/12) *6);
+}
+.offset-7{
+    margin-left: calc((100%/12) *7);
+}
+.offset-8{
+    margin-left: calc((100%/12) *8);
+}
+.offset-9{
+    margin-left: calc((100%/12) *9);
+}
+.offset-10{
+    margin-left: calc((100%/12) *10);
+}
+.offset-11{
+    margin-left: calc((100%/12) *11);
+}
+/* /offset */
+
+
+/* col.altezza */
+.alt-1{
+    height: calc((100%/12) *1);
+}
+.alt-2{
+    height: calc((100%/12) *2);
+}
+.alt-3{
+    height: calc((100%/12) *3);
+}
+.alt-4{
+    height: calc((100%/12) *4);
+}
+.alt-5{
+    height: calc((100%/12) *5);
+}
+.alt-6{
+    height: calc((100%/12) *6);
+}
+.alt-7{
+    height: calc((100%/12) *7);
+}
+.alt-8{
+    height: calc((100%/12) *8);
+}
+.alt-9{
+    height: calc((100%/12) *9);
+}
+.alt-10{
+    height: calc((100%/12) *10);
+}
+.alt-11{
+    height: calc((100%/12) *11);
+}
+.alt-12{
+    height: calc((100%/12) *12);
+}
+
+/* /col.altezza */
