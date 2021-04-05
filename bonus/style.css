@@ -7,7 +7,7 @@ body{
  ************/
 .title{
     background-color: rgba(221, 89, 24, 1);
-    padding: 5px 15px;
+    padding: 0px 15px;
     margin-top: 15px;
     border-top: 2px solid white;
     border-left: 2px solid white;
@@ -19,7 +19,9 @@ body{
 h2,h1{
     color: rgba(255, 221, 201, 1);
     font-size: 6rem;
-    text-shadow: 3px 8px 3px black
+    text-shadow: 3px 8px 3px black;
+    line-height: 120px;
+    text-transform: capitalize;
 }
 
 .chiodo{
@@ -118,7 +120,7 @@ img{
 
 
 #mt_bt{
-    margin-top: 250px;
+    margin-top: 300px;
     margin-left: 100px;
 }
 
@@ -130,7 +132,8 @@ img{
 #mt_bas{
     margin-top: 300px;
     margin-left: -140px;
-    background-color:(221, 89, 24, 1) ;
+    background-color:rgba(221, 89, 24, 1) ;
+    margin: 1px solid black;
 }
 /***************
 /mattone 
@@ -151,9 +154,10 @@ img{
 }
 
 .montain_right{
-    margin-left: 150px;
+    margin-left: 75px;
     border-bottom: 300px solid rgba(59, 185, 0, 1);
 }
+
 /************
 /montagne
 *************/
@@ -165,14 +169,14 @@ img{
 .personaggio{
     width: 70px;
     height: 80px;
-    margin-top: 165px;
+    margin-top: 167px;
     margin-left: 100px;
 }
 
 .nemico{
     width: 70px;
     height: 80px;
-    margin-top: 165px;    
+    margin-top: 167px;    
 }
 /*************
 /personaggi  
@@ -182,15 +186,17 @@ img{
 /***********
  terra
  ********* */
-.terra [class*="col-"]{
-    border: 1px solid black;
-    background-color:rgba(221, 89, 24, 1) ;
+.terra [class*="col-6"]{
+    background-color:rgba(221, 89, 24, 1);
+    border-top: 1px solid black;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
 }
 
 .terra{
     position: absolute;
     bottom: 0;
-    background-color:rgba(221, 89, 24, 1) ;
+    border: 1px solid rgba(221, 89, 24, 1);
 }
 /**********
  /terra
